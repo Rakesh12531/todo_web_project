@@ -7,7 +7,7 @@ This sleek lil’ app is your go-to task tracker made using just **HTML**, **CSS
 
 ## 🌄 Sneak Peek – Project Preview 🖼️
 
-![Website Preview](https://raw.githubusercontent.com/rakeshraj531/todo_web_project/main/preview.png)
+![Website Preview](./todo.png)
 
 > Simple, clean, and straight to the point – like that one friend who actually finishes their to-do list 🤯
 
