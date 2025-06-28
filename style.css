@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-image:url('1.jpg');
+    background-size:cover;
+}
+
+.header{
+    width:100px;
+    margin:40px;
+}
+
+.container{
+    width:500px;;
+    height:450px;
+    background-color:rgba(0,0,0,0.6);
+    box-shadow:0px 0px 100px 0px black;
+    margin:auto;
+    padding:30px;
+    transition:all 0.3s ease;
+}
+
+.container:hover{
+    background-color:rgba(0,0,0,0.5);
+    box-shadow:0 0 0px 0 black;
+    transition:all 0.3s ease;
+    box-shadow:0 0 30px black;
+}
+
+.con-in{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.con-in input{
+    width:80%;
+    height:50px;
+    margin-top:25px;
+    box-sizing:border-box;
+    padding:20px;
+    font-size:20px;
+    background-color:rgba(0,0,0,0.6);
+    border:none;
+    color:white;
+    border-radius:10px;
+    box-shadow:0 0 50px black;
+    transition:all 0.3s ease;
+
+}
+
+.con-in input:hover{
+    background-color:rgba(0,0,0,0.4);
+    box-shadow:0 0 10px black;
+    transition:all 0.3s ease;
+}
+
+.con-in button{
+    height:45px;
+    margin-top:24px;
+    width:80px;
+    font-size:20px;
+    border:none;
+    border-radius:10px;
+    background-color:white;
+    font-weight:bold;
+    box-shadow:0 0 50px black;
+    transition:all 0.3s ease;
+}
+
+.con-in button:hover{
+    background-color:rgba(255,255,255,0.5);
+    box-shadow:0 0 10px black;
+    transition:all 0.3s ease;
+}
+
+.con-in button:active{
+    background-color:black;
+    color:white;
+    transition:all 0.3s ease;
+}
+
+#toDoList{
+    height:400px;
+    width:100%;
+    box-sizing:border-box;
+    padding:20px;
+    border-radius:10px;
+    transition:all 0.3s ease;
+}
+
+#toDoList p{
+    background-color:rgba(0,0,0,0.8);
+    color:white;
+    border-radius:10px;
+    padding:8px;
+    font-size:20px;
+    margin-top:13px;
+    padding-left:40px;
+    transition:all 0.3s ease;
+}
+
+p::selection{
+    background-color:transparent;
+    transition:all 0.3s ease;
+}
+
+#toDoList p:hover{
+    background-color:rgba(0,0,0,0.4);
+    transition:all 0.3s ease;
+}
+
+.footer{
+    height:70px;
+    width:100%;
+    background-color:rgba(0,0,0,0.5);
+    margin-top:25px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color:white;
+}
+
+
